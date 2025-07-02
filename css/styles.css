@@ -11,17 +11,13 @@ body {
 
 header {
     height: 150px;
-    /* new css property */
     display: flex;
-    flex-direction: column;
-    /* new css property */
+    flex-direction: column; /* new css property */
     justify-content: flex-end;
     text-align: center;
-    align-items: center;
-    /* new css propery */
+    align-items: center; /* new css propery */
     padding-bottom: 5px;
-    box-sizing: border-box;
-    /* new css property */
+    box-sizing: border-box; /* new css property */
 }
 
 hr {
@@ -49,8 +45,7 @@ nav a {
     /* box outline style */
     background-color: transparent;
     border: 1px solid green;
-    border-radius: 3px;
-    /* new css property */
+    border-radius: 3px; /* new css property */
     display: inline-block;
     margin: 0 10px;
 }
@@ -64,8 +59,7 @@ nav a:hover {
 
 main {
     display: block;
-    max-width: 800px;
-    /* new css property */
+    max-width: 800px; /* new css property */
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -90,8 +84,11 @@ main h2 {
 
 main p {
     margin-bottom: 1em;
-    line-height: 1.6;
-    /* new css property */
+    line-height: 1.6; /* new css property */
+}
+
+main ul li {
+    margin-bottom: 1em;
 }
 
 footer {
